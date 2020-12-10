@@ -1913,23 +1913,6 @@ background-color: @bgColor;
 }
 }
 
-.cid-siMOFrhNVP {
-@paddingTop: 0;
-@paddingBottom: 0;
-@widthContent: 2;
-@bgColor: #fafafa;
-
-padding-top: (@paddingTop * 15px);
-padding-bottom: (@paddingBottom * 15px);
-background-color: @bgColor;
-.mbr-text, blockquote {
-  color: #767676;
-}
-.mbr-text {
-  color: #232323;
-}
-}
-
 .cid-siMOIbpFKW {
 @paddingTop: 3;
 @paddingBottom: 0;
