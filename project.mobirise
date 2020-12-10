@@ -51,7 +51,7 @@
       }
     ],
     "versionFirst": "4.7.6",
-    "uniqCompNum": 196,
+    "uniqCompNum": 197,
     "versionPublish": "5.2.0",
     "favicon": "@PROJECT_PATH@/assets/images/screenshot-2018-12-04-at-10.32.16-128x127.png",
     "noImageResize": "",
@@ -1733,6 +1733,28 @@
           "_customHTML": "<section class=\"mbr-section content7\" group=\"Article\">\n          \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->   \n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Media Size\" name=\"mediaSize\" min=\"10\" max=\"200\" step=\"5\" value=\"50\">\n        <input type=\"range\" inline title=\"Width Content\" name=\"widthContent\" min=\"1\" max=\"4\" step=\"1\" value=\"2\">\n        <input type=\"checkbox\" title=\"Text On Right/Left\" name=\"reverseContent\"> \n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#fafafa\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"col-12\" mbr-class=\"{'col-md-6': widthContent == 1, 'col-md-8': widthContent == 2, 'col-md-10': widthContent == 3, 'col-md-12': widthContent == 4}\">\n                <div class=\"media-container-row\">\n                    <div class=\"media-content\">\n                        <div class=\"mbr-section-text\">\n                            <p class=\"mbr-text align-right mb-0 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\"><br>Generators are in a priority queue and as capacity becomes available, a set point (in kW) is transmitted to a PLC in each Scottish &amp; Southern Electricity Networks (SSE) substation. SMC reads off the kW set point as a variable current called a “serial current loop” into a Modbus enabled device which the SMC mediation device polls continuously. The kW value is then sent to the wind turbine controller as a Modbus value.&nbsp;<br>The SSE kW set points vary from second to second and the SMC adjusts the turbine's permitted production levels within 60-90 seconds of receiving new set points from SSE.&nbsp;<br><br></p>\n                        </div>\n                    </div>\n                    <div class=\"mbr-figure\" mbr-style=\"{'width': mediaSize + '%'}\">\n                     <img src=\"@PROJECT_PATH@/assets/images/westray-375x484.png\" alt=\"DistgenWestray\">  \n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
           "_cid": "sizDxBkU0X",
           "_anchor": "content7-2t",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": "deltapi-code-editor",
+          "_isSecondary": true,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".mbr-section": {
+              "text-align": "center",
+              "color": "#fff"
+            }
+          },
+          "_name": "custom-html",
+          "_sourceTheme": "mobirise4",
+          "_customHTML": "<section mbr-id=\"_anchor\" class=\"mbr-section article content1\">\n<iframe name=\"myFrame\" width=\"90%\" height=\"550px\" scrolling=\"yes\" frameborder=\"0\" src=\"http://monitoring.prod.dgops.dgcsdev.com/#/monitoring\"></iframe>\n</section>\n",
+          "_cid": "siMVSbnYRG",
+          "_anchor": "custom-html-5g",
           "_protectedParams": [],
           "_global": false,
           "_once": false,

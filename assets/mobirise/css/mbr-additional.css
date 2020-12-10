@@ -1913,6 +1913,17 @@ background-color: @bgColor;
 }
 }
 
+.cid-siMVSbnYRG {
+
+padding-top: (@paddingTop * 15px);
+padding-bottom: (@paddingBottom * 15px);
+background-color: @bgColor;
+.mbr-section {
+  text-align: center;
+  color: #fff;
+}
+}
+
 .cid-siMOIbpFKW {
 @paddingTop: 3;
 @paddingBottom: 0;
