@@ -28,13 +28,13 @@
         "isScrollToTopButton": true
       },
       "additionalSetColors": [
+        "#ff6633",
         "#2e2e2e",
         "#12a529",
         "#eeeeee",
         "#000032",
         "#f5f5f5",
-        "#ff66cc",
-        "#ff7c00"
+        "#ff66cc"
       ]
     },
     "path": "@PROJECT_PATH@",
@@ -5005,7 +5005,7 @@
               "color": "#767676"
             },
             "H1": {
-              "color": "#ff7c00"
+              "color": "#ff6633"
             }
           },
           "_name": "header16",
@@ -5087,7 +5087,7 @@
               }
             },
             ".card-title, .card-img": {
-              "color": "#ff7c00"
+              "color": "#ff6633"
             },
             "P": {
               "color": "#333333"
