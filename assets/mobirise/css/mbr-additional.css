@@ -4242,7 +4242,7 @@ section.lazy-placeholder:after {
   color: #767676;
 }
 .cid-sYKl9kr5iy H1 {
-  color: #000032;
+  color: #ff7c00;
 }
 .cid-sYJT4mLbnz {
   padding-top: 0px;
@@ -4299,7 +4299,7 @@ section.lazy-placeholder:after {
 }
 .cid-sYJTAfLfGR .card-title,
 .cid-sYJTAfLfGR .card-img {
-  color: #000032;
+  color: #ff7c00;
 }
 .cid-sYJTAfLfGR P {
   color: #333333;
@@ -4328,7 +4328,7 @@ section.lazy-placeholder:after {
 .cid-sYODZ06WhZ {
   padding-top: 30px;
   padding-bottom: 0px;
-  background-color: #ffffff;
+  background-image: url("../../../assets/images/mbr-1-1920x1080.jpg");
 }
 .cid-sYODZ06WhZ .mbr-section-subtitle {
   color: #767676;
@@ -4461,6 +4461,12 @@ section.lazy-placeholder:after {
 }
 .cid-sYKi2GMbqy .mbr-section-title {
   color: #000032;
+}
+.cid-sYKi2GMbqy .mbr-timeline-title {
+  color: #000032;
+}
+.cid-sYKi2GMbqy .mbr-timeline-text {
+  color: #333333;
 }
 .cid-sYKEziMXko {
   padding-top: 15px;
